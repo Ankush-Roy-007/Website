@@ -1,0 +1,191 @@
+.nav-logo{
+  width: 55px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.navnav{
+  background-color: #000000;
+  position: relative;
+  z-index: 3;
+}
+
+.nav-title{
+  padding-left:5px;
+  font-weight: bolder;
+}
+
+.nav-menu{
+  margin: auto;
+  font-size: 18px;
+}
+
+.nav-login{
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0.70;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.90;
+  z-index: 1;
+}
+
+.full-logo{
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  opacity: 0.80;
+}
+
+.display-4{
+  font-weight: bolder;
+  color: #23A0A0;
+}
+
+.special-alphabets{
+  font-size: 130%;
+  color: #D3D7D8;
+}
+
+.Ait-logo{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
+#about-us{
+  background-color: #000000;
+  height: 650px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.about{
+  color: #D3D7D8;
+  font-size: 78px;
+  padding-top: 500px;
+}
+
+.about-content{
+  line-height: 1.3;
+  font-size: 26px;
+  color: #23A0A0;
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.about-total{
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  text-align: center;
+}
+
+.as{
+  height: 210px;
+}
+
+.coming-soon{
+  color: #D3D7D8;
+  font-size: 78px;
+}
+.coming-soon-heading{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.poster{
+  display: flex;
+  align-items: center;
+}
+.poster a{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.poster img{
+  width: 380px;
+  height: auto;
+  margin:auto;
+}
+
+.coming-soon-div{
+  overflow-x: hidden;
+}
+.sticky-logo{
+  z-index: 0;
+  height: 500px;
+  border-radius: 100%;
+  opacity: 0.09;
+  position: sticky;
+  width: 520px;
+  top:90px;
+  left:420px;
+}
+
+.rest-body{
+  background-color: #000000;
+}
+
+.event-name{
+  font-size: 60px;
+  color: #23A0A0;
+  letter-spacing:2px;
+  font-weight: 600;
+}
+
+.coming-button{
+  padding-right:5px; 
+}
+
+.coming-button-register{
+  font-size: 50px;
+}
+
+.coming-content{
+  text-align: center;
+}
+
+.fa-medal{
+  color: yellow;
+}
